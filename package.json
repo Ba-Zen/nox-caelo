@@ -1,0 +1,29 @@
+{
+  "name": "nox-caelo",
+  "displayName": "Nox Caelo",
+  "description": "Nox Caelo, Latin for night sky is a dark theme for your editor that draws inspiration from the Aurora Borealis or Northern Lights night sky.",
+  "version": "0.0.1",
+  "publisher": "Ba-zen",
+  "author": {
+    "name": "Bazen Berhane",
+    "email": "bazenatlas@gmail.com"
+  },
+  "engines": {
+    "vscode": "^1.38.0"
+  },
+  "scripts": {
+    "vscode:prepublish": "tsc"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nox Caelo ",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Nox Caelo -color-theme.json"
+      }
+    ]
+  }
+}
